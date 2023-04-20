@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: midnightblue;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+#wrapper {
+    width: 90%;
+    margin: 0 auto;
+    min-width: 940px;
+    background-color: aliceblue;
+    color: #000066;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    min-width: 40em;
+    background-color: #b3c7e6;
+    z-index: 9999;
+}
+
+#menu ul {
+    list-style-type: none;
+    text-align: right;
+    font-size: 1.5em;
+    margin: 5px;
+    padding-right: 10%;
+}
+
+#menu li {
+    display: inline;
+    padding: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu a:link{
+    color: #000066;
+}
+
+#menu a:visited{
+    color: #000066;
+}
+
+#menu a:hover{
+    background-color: #eaeaea;
+    color: #869dc7;
+}
+
+#en-tete {
+    background-color: midnightblue;
+    color: #ffffff;
+    font-size: 50px;
+    height: 100px;
+    padding:  0px 0px 15px 0px;
+    margin-top: 50px;
+}
+
+#en-tete img {
+    width: auto;
+    height: 80px;
+}
+
+#barre-laterale {
+    float: left;
+    width: 250px;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+#barre-laterale ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#barre-laterale .lien-formation {
+    text-decoration: none;
+    padding: 10%;
+    display: block;
+    background-color: #b3c7e6;
+    border-bottom: 1px solid #ffffff;
+}
+
+#barre-laterale .lien-formation:link{
+    color: #000066;
+}
+
+#barre-laterale .lien-formation:visited{
+    color: #000066;
+}
+
+#barre-laterale .lien-formation:hover{
+    background-color: #eaeaea;
+    color: #869dc7;
+}
+
+.cours {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.cours a {
+    text-decoration: none;
+    padding: 5%;
+    display: block;
+    border-bottom: 1px solid #869dc7;
+}
+
+.cours a:link{
+    color: #000066;
+}
+
+.cours a:visited{
+    color: #000066;
+}
+
+.cours a:hover{
+    background-color: #eaeaea;
+    color: #869dc7;
+}
+
+.cours a:focus{
+    background-color: #4f81df;
+}
+
+.main {
+    margin-left: 160px;
+    padding: 10px 20px;
+    overflow: auto;
+    display: block;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#mediaContainer {
+    width: 600px;
+    height: 400px;
+}
+
+#monMedia {
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+#pied {
+    text-align: center;
+    font-style: italic;
+    font-size: 100%;
+    padding: 10px;
+    background-color: #b3c7e6;
+    clear: both;
+}
+
+#reseaux-sociaux {
+    margin: 25px 0px;
+}
+
+#reseaux-sociaux p {
+    padding-bottom: 5px;
+}
+
+#reseaux-sociaux a {
+    text-decoration: none;
+}
+
+#pied img {
+    height: 25px;
+    width: auto;
+}
+
